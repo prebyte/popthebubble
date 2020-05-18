@@ -1,0 +1,111 @@
+.maincountainer{
+    display: flex;
+}
+.content1{
+    flex: 1;
+}
+.gamePanel {
+flex: 1;
+}
+.content2{
+    flex: 1;
+}
+.gameContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+.showGreen {
+    background-color: green !important;
+}
+
+.timeIndex{
+    display: flex;
+    padding: 10px;
+}
+.showTime{
+   padding-left: 10px;
+}
+.score{
+   margin-left: 100px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #f4433629;
+}
+
+.gameCell{
+    height: 69px;
+    width: 80px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #42a5f51a;
+}
+.stgame{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    border-radius: 20px;
+    border: transparent;
+    background-color:gray;
+}
+.timeOut{
+    padding-top: 180px;
+    padding-left: 15px;
+    font-size: 180%;
+    font-weight:bold;
+    color: white;
+}
+.gameOver{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    border-radius: 20px;
+    border: transparent;
+    background-color: firebrick;
+}
+.gameOverIndicator{
+    padding-top: 160px;
+    font-size: 180%;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+}
+.scoreIndicator{
+    font-size: 180%;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+}
+.playBtn{
+    margin-left: 160px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: groove;
+    border-radius: 2em;
+
+}
+.playAgain{
+    margin-left: 160px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: groove;
+    border-radius: 2em;
+}
